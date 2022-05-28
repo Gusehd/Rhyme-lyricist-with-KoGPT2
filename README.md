@@ -21,7 +21,22 @@ Rhyme-lyricist는 한국어 성능을 끌어올린 KoGPT2를 통해 구현한 �
 * Clone repository  
 `git clone https://github.com/Capstonedesign0/AI-Composer.git`
 
+* Colab  
+`cd /gdrive/My Drive/Colab Notebooks`
+
+* ETC  
+ ++데이터 경로 재설정 필요
+
+* Pre-fine tuning model download  
+ <a href = "https://drive.google.com/file/d/1D-XkGhv9qDhP2FHK22_qSJmkR3iVr38C/view?usp=sharing">구글 드라이브 다운로드</a>
+
+
 ## 목표
+
+* Rhyme Score / Model 코드 분리
+* Code Refactoring 진행
+* Fine Tuning 데이터 확보 및 모델 재학습 ( 데이터의 양이 너무 적음 )
+* 
 
 
 ## 한계
