@@ -102,18 +102,18 @@ Rhyme-lyricist는 한국어 성능을 끌어올린 KoGPT2를 통해 구현한 �
 
 ## Reference & Open-source library
 
-hgtk : https://github.com/bluedisk/hangul-toolkit
-googletrans : https://github.com/ssut/py-googletrans
-request : https://github.com/psf/requests
-openpyxl : https://openpyxl.readthedocs.io/en/stable/
-pandas : https://pandas.pydata.org/
-"https://transliterator.herokuapp.com/"
-https://github.com/Kyubyong/wordvectors
-https://pytorch.kr/
-koGPT2 : https://github.com/SKT-AI/KoGPT2
-fastai : https://github.com/fastai/fastai
-transformers : https://github.com/huggingface/transformers
-kss : https://github.com/hyunwoongko/kss
+hgtk : https://github.com/bluedisk/hangul-toolkit  
+googletrans : https://github.com/ssut/py-googletrans  
+request : https://github.com/psf/requests  
+openpyxl : https://openpyxl.readthedocs.io/en/stable/  
+pandas : https://pandas.pydata.org/   
+발음변환 : "https://transliterator.herokuapp.com/"  
+kor word2vec : https://github.com/Kyubyong/wordvectors  
+pytorch : https://pytorch.kr/  
+koGPT2 : https://github.com/SKT-AI/KoGPT2  
+fastai : https://github.com/fastai/fastai  
+transformers : https://github.com/huggingface/transformers  
+kss : https://github.com/hyunwoongko/kss  
 
 
 ## Fine Tuning 진행시
