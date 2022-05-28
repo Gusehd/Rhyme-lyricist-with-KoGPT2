@@ -102,6 +102,14 @@ Colab 환경과 google drive를 통해 개발되었습니다.
 
 ## 예시
 
+1. `make_line(rhyme_word,word_len)`   
+ ```python
+ lyc = make_line("여름",100)
+ print(lyc)
+ 
+ #결과 : 
+ ```  
+
 
 ## 목표
 
