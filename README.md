@@ -118,7 +118,7 @@ Rhyme-lyricist-with-KoGPT2는 Colab 환경에서 개발되었습니다.
   print(lyc)
  ```    
   결과<br><br>
-  <img width="100%" src="https://user-images.githubusercontent.com/79627126/170822847-f2d26452-4837-46e0-9a76-b8122dd21c65.PNG"/>
+  <img src="https://user-images.githubusercontent.com/79627126/170822847-f2d26452-4837-46e0-9a76-b8122dd21c65.PNG"/>
 <br><br>
 2. `make_verse_seq(key_word,verse_maxlen, max_rhyme_hit,min_rhyme_hit,min_level=0)`     
   ```python
@@ -127,7 +127,7 @@ Rhyme-lyricist-with-KoGPT2는 Colab 환경에서 개발되었습니다.
   #사용된 라임 단어 : ['사랑', '세상', '만남', '각각']
  ```    
   결과<br><br>
-  <img width="100%" src="https://user-images.githubusercontent.com/79627126/170823073-d520fe73-7cfe-48a2-8833-478d555036b6.PNG"/>
+  <img  src="https://user-images.githubusercontent.com/79627126/170823073-d520fe73-7cfe-48a2-8833-478d555036b6.PNG"/>
   <br><br>
 3. `make_verse_not_seq(key_word,verse_maxlen,one_verse_len, max_rhyme_hit,min_rhyme_hit,min_level=0)`     
   ```python
