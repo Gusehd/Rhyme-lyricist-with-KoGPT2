@@ -18,7 +18,8 @@ Rhyme-lyricist는 한국어 성능을 끌어올린 KoGPT2를 통해 구현한 �
 
 
 ## 이용방법
-
+* Clone repository  
+`git clone https://github.com/Capstonedesign0/AI-Composer.git`
 
 ## 목표
 
