@@ -23,7 +23,8 @@ Colab 환경과 google drive를 통해 개발되었습니다.
 `git clone https://github.com/Capstonedesign0/AI-Composer.git`
 
 * Colab  
-`cd /gdrive/My Drive/Colab Notebooks`
+`cd /gdrive/My Drive/Colab Notebooks`  
+  Colab Notebooks 폴더안에 배치
 
 * Requirements  
 `!pip install -r requirements.txt`
