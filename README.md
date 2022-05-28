@@ -71,7 +71,10 @@ Rhyme-lyricist-with-KoGPT2는 Colab 환경에서 개발되었습니다.
     * min_level=0 : 사용할 단어들의 word2vec 최소 유사도 ( 미만이면 사용 X )      
     * output : 라임을 고려한 일반적인 가사  
 
-    시퀀스로 가사를 생성하는 방식 & 한단어로 가사를 만들고 그 위에 덮어 씌우는 방식
+    시퀀스로 가사를 생성하는 방식 & 한단어로 가사를 만들고 그 위에 덮어 씌우는 방식  
+    예를 들어 , 여름 으로 가사를 한줄 생성한다.
+    이후 여름으로 나온 가사에 다음 라임 단어를 붙여 ( 여름 ~~~~ + 얼음 ) 을 모델의 input으로 넣어 다시 한줄 가사를 만든다.
+    이러한 방식으로 진행 , 최종 목표 가사 길이에 도달 할 때 까지 반복한다.
 
 3. `make_verse_not_seq(key_word,verse_maxlen,one_verse_len, max_rhyme_hit,min_rhyme_hit,min_level=0)`
    * key_word : 가사에 처음으로 사용할 단어
