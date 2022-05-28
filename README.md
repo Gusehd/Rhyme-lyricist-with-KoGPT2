@@ -73,7 +73,21 @@ Colab 환경과 google drive를 통해 개발되었습니다.
 
     여러 단어들을 통해 가사를 각각 한 줄씩 만들고 이후 합치는 방법으로 진행
 
-4. `make_verse_chose_without_word2vec(
+4. `make_verse_choose(key_word,verse_maxlen,one_verse_max_len,
+               max_rhyme_hit,min_rhyme_hit,min_level=0)`
+   * key_word : 가사에 처음으로 사용할 단어
+   * verse_maxlen : 전체 가사의 줄의 개수
+   * one_verse_len : 허용할 가사 한줄의 최대 길이
+   * max_rhyme_hit : 사용할 단어들의 최대 라임 HIT
+   * min_rhyme_hit : 사용할 단어들의 최소 라임 HIT
+   * min_level=0 : 사용할 단어들의 word2vec 최소 유사도 ( 미만이면 사용 X )
+
+   가사 생성은 모델이 진행하지만 , 선택은 사람이 할 수 있음  
+   인공지능이 생성한 여러가지 가사들 중 사용자가 원하는 가사를 선택  
+   한줄 한줄 이어나가 최종적인 가사 전체를 구성
+               
+               
+5. `make_verse_choose_without_word2vec(
     key_word,verse_maxlen,one_verse_max_len,
     max_rhyme_hit,min_rhyme_hit,min_level=0)`
 
@@ -84,9 +98,7 @@ Colab 환경과 google drive를 통해 개발되었습니다.
    * min_rhyme_hit : 사용할 단어들의 최소 라임 HIT
    * min_level=0 : 사용할 단어들의 word2vec 최소 유사도 ( 미만이면 사용 X )
 
-   가사 생성은 모델이 진행하지만 , 선택은 사람이 할 수 있음  
-   인공지능이 생성한 여러가지 가사들 중 사용자가 원하는 가사를 선택  
-   한줄 한줄 이어나가 최종적인 가사 전체를 구성  
+   word2vec을 고려하지 않은 가사 생성 함수 , 나머지는 make_verse_choose와 같음
 
 ## 예시
 
@@ -104,7 +116,7 @@ Colab 환경과 google drive를 통해 개발되었습니다.
 
 * 가사와 가사 사이의 연관성이 없음
 * 모델 fine tunung에 사용된 데이터가 적음
-* 의미있는 라임 가사를 생성하기 어려움
+* 가사 내용이 깊고 풍부한 라임 가사를 생성하기 어려움
 
 
 ## Reference & Open-source library
