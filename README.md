@@ -34,3 +34,9 @@ koGPT2 : https://github.com/SKT-AI/KoGPT2
 fastai : https://github.com/fastai/fastai
 transformers : https://github.com/huggingface/transformers
 kss : https://github.com/hyunwoongko/kss
+
+
+## 정리해야할 것
+
+#주의 : 코드 구성은 xlsx 파일안의 lyrics 라는 열만을 가사로 인식함
+#새로 fine_tuning 하고자 한다면 데이터 전처리 필수
