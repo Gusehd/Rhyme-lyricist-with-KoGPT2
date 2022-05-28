@@ -3,7 +3,8 @@
 > KoGPT2 기반의 라임을 고려한 한국어 가사 생성 모델
 
 GPT-2는 주어진 텍스트의 다음 단어를 잘 예측할 수 있도록 학습된 언어모델이며 문장 생성에 최적화 되어 있습니다.<br>
-Rhyme-lyricist는 한국어 성능을 끌어올린 KoGPT2를 통해 구현한 라임을 고려한 가사 생성 모델 입니다.
+Rhyme-lyricist는 한국어 성능을 끌어올린 KoGPT2를 통해 구현한 라임을 고려한 가사 생성 모델 입니다.  
+Colab 환경과 google drive를 통해 개발되었습니다.
 
 ## 구조 
 <img width="100%" src="https://user-images.githubusercontent.com/79627126/170819770-3a53c1d5-340e-40d1-aad0-20ef257605af.png"/>
@@ -33,7 +34,12 @@ Rhyme-lyricist는 한국어 성능을 끌어올린 KoGPT2를 통해 구현한 �
 * Pre-fine tuning model download ( 90 ~ 19 년도 발라드 , 댄스 약 3500곡 학습 )   
    <a href = "https://drive.google.com/file/d/1D-XkGhv9qDhP2FHK22_qSJmkR3iVr38C/view?usp=sharing">구글 드라이브 다운로드</a>  
    ++ 경로 : corpus_data 폴더 안
-
+   
+* kor word2vec download    
+   <a href = "https://drive.google.com/file/d/0B0ZXk88koS2KbDhXdWg1Q2RydlU/view?resourcekey=0-Dq9yyzwZxAqT3J02qvnFwg">구글 드라이브 다운로드</a>  
+   <a href = "https://github.com/Kyubyong/wordvectors">박규병님의 깃허브</a>  
+   ++ 경로 : 압축해제 후 나온 ko 폴더를 corpus_data 폴더안에 배치 
+   
 ## 이용방법
 
 * 모든 쉘 실행 후 마지막 쉘에서 다음 4가지 함수를 통해 가사 생성
